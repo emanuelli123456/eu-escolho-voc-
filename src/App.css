@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.pokemon-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Cor de fundo que destaca o Litten */
+  background-color: #F59700; 
+}
+
+.pokemon-card {
+  /* Cores do Litten: Preto e Laranja/Vermelho */
+  background-color: #F59700; 
+  border: 5px solid #F57B00; 
+  
+  /* Tamanhos mantidos exatamente iguais aos anteriores */
+  border-radius: 15px; 
+  padding: 20px;
+  width: 250px;
+  
+  /* Sombra com brilho leve em laranja */
+  box-shadow: 5px 5px 15px rgba(255, 69, 0, 0.3);
+  
+  /* Garantindo que o texto apareça bem no fundo escuro */
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
