@@ -6,7 +6,6 @@ function App() {
 const [pokemons, setPokemons] = useState({});
 const [loading, setLoading]= useState(true);
 const [error, setError]= useState(false);
-
 useEffect(()=> {
   const getData= async () => {
     try{
@@ -37,9 +36,11 @@ useEffect(()=> {
 
 
   return (
+     <div className="App">
+
     <div className="pokemon-card">
-    
-    <div className="App">
+
+   <div className= "figura"> 
 
   <h1>Poke card</h1>
 
@@ -51,7 +52,11 @@ useEffect(()=> {
 
   <h3>{pokemons.stats[0].stat.name+''+
   pokemons.stats[0].base_stat+ pokemons.stats[1].stat.name+''+
-  pokemons.stats[1].base_stat}</h3>
+  pokemons.stats[1].base_stat+
+  pokemons.types[0].type.name}</h3>
+ 
+
+  </div>
  </div>
   </div>
   </div>

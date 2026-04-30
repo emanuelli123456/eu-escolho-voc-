@@ -37,7 +37,7 @@
   }
 }
 .pokemon-container {
-  height: 100vh;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,20 +46,29 @@
 }
 
 .pokemon-card {
-  /* Cores do Litten: Preto e Laranja/Vermelho */
   background-color: #F59700; 
   border: 5px solid #F57B00; 
   
-  /* Tamanhos mantidos exatamente iguais aos anteriores */
+  /* Tamanhos */
   border-radius: 15px; 
-  padding: 20px;
-  width: 250px;
+  padding: 1px;
+  width: 190px;
   
   /* Sombra com brilho leve em laranja */
   box-shadow: 5px 5px 15px rgba(255, 69, 0, 0.3);
   
   /* Garantindo que o texto apareça bem no fundo escuro */
-  color: white;
+  color: black;
   text-align: center;
   font-family: sans-serif;
+}
+
+.figura {
+  width: 159px; 
+  height: 230px; 
+  margin-top: 1px;
+  background-image: url('../public/how-can-i-make-custom-battle-backgrounds-v0-d9spuwer2c491.webp');
+  background-size: cover; /* Faz a imagem preencher todo o espaço */
+  background-position: center;
+ 
 }
