@@ -44,7 +44,7 @@ useEffect(()=> {
   <h1>Poke card</h1>
 
   <div classname="pokemon-container">
-
+  
   <h3>{pokemons.name}</h3>
 
   <img src={pokemons.sprites.front_default} alt={pokemons.name}/>
