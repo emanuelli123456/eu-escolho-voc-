@@ -42,7 +42,6 @@ useEffect(()=> {
     <div className="pokemon-card">
 
    <div className= "figura"> 
-
   <h1>Poke card</h1>
 
   <div classname="pokemon-container">

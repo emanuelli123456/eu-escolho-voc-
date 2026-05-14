@@ -1,10 +1,12 @@
 .pokezin {
   text-align: center;
+
 }
 
 .pokezin-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -47,12 +49,16 @@
 
 .pokemon-card {
   background-color: #F59700; 
-  border: 5px solid #F57B00; 
+  border: 5px solid rgb(129, 52, 0); 
   
   /* Tamanhos */
   border-radius: 15px; 
   padding: 1px;
   width: 190px;
+   background-image: url('../assets/how-can-i-make-custom-battle-backgrounds-v0-d9spuwer2c491.webp');
+    background-size: cover; /* Faz a imagem preencher todo o espaço */
+    background-position: center;
+
   
   /* Sombra com brilho leve em laranja */
   box-shadow: 5px 5px 15px rgba(255, 69, 0, 0.3);
@@ -62,13 +68,7 @@
   text-align: center;
   font-family: sans-serif;
 }
+.figura{
 
-.figura {
-  width: 159px; 
-  height: 230px; 
-  margin-top: 1px;
-  background-image: url('../public/how-can-i-make-custom-battle-backgrounds-v0-d9spuwer2c491.webp');
-  background-size: cover; /* Faz a imagem preencher todo o espaço */
-  background-position: center;
- 
 }
+

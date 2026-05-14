@@ -1,8 +1,8 @@
 import React from "react";
 import{Route,BrowserRouter,Routes}from"react-router-dom";
-import Pokezin from"./pokezin";
+import Pokezin from"./pages/pokezin";
 
-import Trainer from "./nome";
+import Trainer from "./pages/nome";
 
 function App(){
     return(
